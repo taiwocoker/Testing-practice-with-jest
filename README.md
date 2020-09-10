@@ -3,10 +3,7 @@
 > This is part of the To-do-list Project in [The Odin Project's](https://www.theodinproject.com/courses/javascript/lessons/testing-practice?ref=lnav) Javascript Curriculum.
 
 
-![screenshot]()
 
- View the app live [here]()
- 
 ## Built With
 
 - Javascript, HTML and CSS
@@ -51,7 +48,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/taiwocoker/Testing-practice-with-jest/issues).
 
 ## Show your support
 
