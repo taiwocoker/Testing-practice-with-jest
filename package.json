@@ -1,10 +1,10 @@
 {
-  "name": "Testing-practice-with-jest",
+  "name": "testing-practice",
   "version": "1.0.0",
   "description": "> This is part of the To-do-list Project in [The Odin Project's](https://www.theodinproject.com/courses/javascript/lessons/testing-practice?ref=lnav) Javascript Curriculum.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack",
     "watch": "webpack --watch"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/taiwocoker/Testing-practice-with-jest#readme",
   "devDependencies": {
+    "jest": "^26.4.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
