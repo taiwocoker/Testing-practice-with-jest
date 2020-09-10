@@ -1,4 +1,3 @@
-const calculator = require("./calculator");
 const Calculator = require("./calculator");
 
 const calc = Calculator(1,2);
