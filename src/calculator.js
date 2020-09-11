@@ -2,7 +2,7 @@
   eslint-disable func-names,
 */
 
-function Calculator(a, b) {
+const Calculator = (a, b) => {
   const notify = function () {
     if (typeof (a) !== 'number' || typeof (b) !== 'number') {
       throw new Error('Input numbers only');
@@ -33,6 +33,6 @@ function Calculator(a, b) {
   return {
     add, subtract, divide, multiply,
   };
-}
+};
 
 module.exports = Calculator;

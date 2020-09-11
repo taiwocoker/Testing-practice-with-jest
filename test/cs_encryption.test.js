@@ -1,4 +1,4 @@
-const CeasarSipher = require('./cs_encryption');
+const CeasarSipher = require('../src/cs_encryption');
 
 const cs1 = CeasarSipher('taiwo', 1);
 const cs2 = CeasarSipher('Hello World!', 3);

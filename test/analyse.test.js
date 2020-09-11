@@ -1,4 +1,4 @@
-const analyse = require('./analyse');
+const analyse = require('../src/analyse');
 
 test('should have average', () => {
   expect(analyse([1, 8, 3, 4, 2, 6]).average).toBe(4);
@@ -14,4 +14,8 @@ test('should have max', () => {
 
 test('should have length', () => {
   expect(analyse([1, 8, 3, 4, 2, 6]).length).toBe(6);
+});
+
+test('analyse must take in an array', () => {
+  expect(analyse).toThrow('Pass arrays only');
 });
